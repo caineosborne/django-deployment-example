@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>WElcome to Relative_Url_templates</h1>
+    <!--  THis searches for the app name variable in URLS and then the link name
+  Make sure quotes match - as any spaces will block it -->
+    <a href="{% url 'basic_app:other' %}"> The other page</a>
+    <a href="{% url 'admin:index' %}"> admin </a>
+    <a href="{% url 'index' %}"> home </a>
+  </body>
+</html>
